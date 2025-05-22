@@ -11,18 +11,23 @@
 #A64D79 - pink
 */
 
+
 a:link {
 	color: #00008B; /* dark blue */
 }
 
 li {
-	font-size: 1.4em
+	font-size: 1.8em
+}
+
+br {
+	margin-top: 100px;
 }
 
 .dark-section {
   background-color: #35192d;
   color: #A64D79;
-
+  font-weight: 500;
 }
 
 a.dark-section-link {
@@ -38,6 +43,7 @@ a.dark-section-link {
 .nav-bar {
   background-color: #A64D79;
   color: #121214;
+  margin-left: 1px;
 }
 
 .my-footer {
@@ -54,12 +60,20 @@ a.dark-section-link {
 }
 
 .body-style {
-	background-color: #121214;
 	font-family: "PT Serif", serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.bg {
+	background-image: url("images/background.png");
+	background-attachment: fixed;
+	height: 100%;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
 
 
 
